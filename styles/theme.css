@@ -1,0 +1,104 @@
+@font-face {
+	font-family: 'cardo';
+	src: url('../fonts/cardo/cardo-bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'cardo';
+	src: url('../fonts/cardo/cardo-italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'cardo';
+	src: url('../fonts/cardo/cardo-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'specialelite';
+	src: url('../fonts/specialelite/SpecialElite.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+html {
+    font-size: 16px;
+}
+body {
+    max-width: 420px;
+	margin-left:auto;
+	margin-right:auto;
+    line-height: 1.5;
+    font-family: 'cardo';
+}
+main p:first-letter {
+    font-family: 'specialelite';
+    float: left;
+    font-size: 2.5em;
+    line-height: 1;
+    margin-right: 0.2em;
+}
+h1, h2, h3 {
+    font-family: 'specialelite';
+}
+h1, h2 {
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 4em;
+    line-height: 2;
+}
+h2 {
+    font-size: 2.5em;
+    line-height: 1.2;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+h3::before {
+    content: '❧';
+}
+blockquote p::before {
+    content: '« ';
+}
+blockquote p::after {
+    content: ' »';
+}
+blockquote {
+    font-style:italic;
+    background-color:red;
+}
+cite {
+    font-style:normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.main {
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+    border-style: solid;
+}
+.pictos_fin {
+    text-align:center;
+    font-size: 3em;
+}
+a {
+    text-decoration-style: dashed;
+    text-underline-offset: 0.4em;
+}
+a:visited {
+    color: black;
+}
+.white-space-normal {
+	white-space: normal;
+}
+.small {
+	width: 173px;
+}
